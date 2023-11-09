@@ -14,16 +14,16 @@ REST api сервис уведомления пользователей, кот�
 ## Установка конфигурации для запуска MongoDB и SMTP сервера локально
 1. `open ~/.zshrc`.
 1. Выставите переменные окружения со следующими значениями:
-    1. DB_URI='mongodb://admin:pass@mongo:27017'
-    1. SMTP_HOST='smtp'
-    1. SMTP_PORT=2500
-    1. SMTP_LOGIN='login'
-    1. SMTP_PASSWORD='password'
-    1. SMTP_EMAIL='foo@mail.ru'
-    1. SMTP_NAME='name'
-    1. MONGO_INITDB_ROOT_USERNAME='admin'
-    1. MONGO_INITDB_ROOT_PASSWORD='pass'
-    1. MONGO_INITDB_DATABASE='mydatabase'
+    1. `DB_URI='mongodb://admin:pass@mongo:27017'`
+    1. `SMTP_HOST='smtp'`
+    1. `SMTP_PORT=2500`
+    1. `SMTP_LOGIN='login'`
+    1. `SMTP_PASSWORD='password'`
+    1. `SMTP_EMAIL='foo@mail.ru'`
+    1. `SMTP_NAME='name'`
+    1. `MONGO_INITDB_ROOT_USERNAME='admin'`
+    1. `MONGO_INITDB_ROOT_PASSWORD='pass'`
+    1. `MONGO_INITDB_DATABASE='mydatabase'`
 1. `source ~/.zshrc`.
 
 ## Сборка docker образов
