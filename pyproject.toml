@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "notification-service"
+version = "0.1.0"
+description = ""
+authors = ["Ivan <11ivangrigoriev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.0"
+uvicorn = "^0.23.2"
+secure-smtplib = "^0.1.1"
+pymongo = "^4.5.0"
+aiosmtplib = "^2.0.2"
+motor = "^3.3.1"
+pytest-asyncio = "^0.21.1"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+ruff = "^0.1.2"
+pytest = "^7.4.3"
+pyright = "^1.1.332"
+httpx = "^0.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
